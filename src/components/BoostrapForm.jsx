@@ -49,7 +49,7 @@ export default function BoostrapForm() {
                 <Form.Control
                   type="text"
                   name="firstName"
-                  placeholder="Enter your first name"
+                  placeholder="*Enter your first name"
                   onChange={handleChange}
                   value={formData.firstName}
                   disabled={viewResults}
@@ -61,7 +61,7 @@ export default function BoostrapForm() {
                 <Form.Control
                   type="text"
                   name="lastName"
-                  placeholder="Enter your last name"
+                  placeholder="*Enter your last name"
                   onChange={handleChange}
                   value={formData.lastName}
                   disabled={viewResults}
@@ -73,7 +73,7 @@ export default function BoostrapForm() {
                 <Form.Control
                   type="text"
                   name="hobbie"
-                  placeholder="Enter your favourite hobbie"
+                  placeholder="Optional --> Enter your favourite hobbie"
                   onChange={handleChange}
                   value={formData.hobbie}
                   disabled={viewResults}

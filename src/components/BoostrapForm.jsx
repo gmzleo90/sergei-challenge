@@ -13,7 +13,6 @@ export default function BoostrapForm() {
 
   const [showToast, setShowToast] = useState(false);
 
-
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -44,7 +43,7 @@ export default function BoostrapForm() {
       <Row>
         <Col className="m-5">
           <Card>
-            <Form className="m-2" >
+            <Form className="m-2">
               <Form.Group className="mb-3" controlId="formData.firstName">
                 <Form.Label>First Name:</Form.Label>
                 <Form.Control
@@ -126,7 +125,7 @@ export default function BoostrapForm() {
             onClose={() => setShowToast(false)}
             dismissible
           >
-          You must complete the form
+            You must complete the form
           </Alert>
         )}
       </footer>
